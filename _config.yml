@@ -1,49 +1,18 @@
 # Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: "Jalpc"    ### Website title
+title: André Formento
+email: andreformento.sc@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  André Formento - Software Engineer
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://yourdomain.com" # the base hostname & protocol for your site
+github_username:  andreformento
 
-baseurl: "/"      ### Some links refer to this
-url: "http://www.jack003.com"     ### This is for product environment
-# url: "http://127.0.0.1:4000"    ### This is used for debug
-
-# author
-author:
-  name: 'Jack'
-  first_name: 'Jia'
-  last_name: 'Kun'
-  email: 'jack19890614@gmail.com'
-  facebook_username: 'jiakunnj'
-  github_username: 'Jack614'
-  head_img: 'static/img/landing/Jack.jpg'   ### Relative path
-
-# landing page
-landing:
-  home: 'Home'
-  about: 'About'
-  career: 'Career'
-  skills: 'Skills'
-  blog: 'Blog'
-  contact: 'Contact'
-
-# blog index
-index:
-  home: 'Home'
-  python: 'Python'
-  linux: 'Linux'
-  html: 'HTML'
-  database: 'Database'
-  mac: 'Mac'
-  life: 'Life'
-
-# comment
-changyan:
-  appid: cysfY7ULn
-  conf: prod_861928934cecb7a18e15bedaed9dae29
-
-# share
-bshare:
-  uuid: 513f778e-a8f7-4c20-9ec2-d29cc2328d75
-
-# blog img path
-img_path: '/static/img/blog'    ### Full path
+# Build settings
+markdown: kramdown
