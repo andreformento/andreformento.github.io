@@ -1,5 +1,0 @@
-jekyll build --incremental --watch
-
-jekyll serve
-
-localhost:4000

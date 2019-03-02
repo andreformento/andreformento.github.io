@@ -1,25 +1,46 @@
----
-layout: default
----
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>André Formento</title>
+		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+		<meta name="description" content="" />
+		<meta name="keywords" content="" />
+		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+		<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+		<script src="js/skel.min.js"></script>
+		<script src="js/init.js"></script>
+		<noscript>
+			<link rel="stylesheet" href="css/skel.css" />
+			<link rel="stylesheet" href="css/style.css" />
+			<link rel="stylesheet" href="css/style-wide.css" />
+			<link rel="stylesheet" href="css/style-noscript.css" />
+		</noscript>
+		<!--[if lte IE 9]><link rel="stylesheet" href="css/ie/v9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	</head>
+	<body class="loading">
+		<div id="wrapper">
+			<div id="bg"></div>
+			<div id="overlay"></div>
+			<div id="main">
+				<header id="header">
+					<h1>André Formento</h1>
+					<h2>Software Engineer &nbsp;&bull;&nbsp; &#x1F918 </h2>
+					<p>Up the Irons</p>
+					<nav>
+						<ul>
+							<li><a href="https://github.com/andreformento" class="icon fa-github"><span class="label">Github</span></a></li>
+							<li><a href="https://www.linkedin.com/in/andreformento/" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+							<li><a href="https://money.andreformento.com" class="icon fa fa-money"><span class="label">Money</span></a></li>
+						</ul>
+					</nav>
+				</header>
 
-<div class="home">
+				<footer id="footer">
+					<span class="copyright"><a href="mailto:andreformento.sc@gmail.com">andreformento.sc@gmail.com</a></span>
+				</footer>
 
-  <a class="post-link" href="term-paper/index.html">Results of term paper</a>
-
-  <h1 class="page-heading">Posts</h1>
-
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
-
-</div>
+			</div>
+		</div>
+	</body>
+</html>
